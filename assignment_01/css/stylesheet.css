@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: times, serif;
+  font-size: 20px;
+
+}
+
+article{
+  padding: 2em;
+  font-family: times,serif;
+  font-size: 1.3em;
+  color: #black;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+article h2{
+  padding: .5em;
+  font-family: times,serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #800000;
+  margin: 1em 0 1em;
+}
+
+header{
+  background-color: #eee;
+  color: black;
+  padding: 2em;
+  border-top: 2em solid #fff;
+  border-bottom: .2em solid #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+}
+
+h1{
+  font-size: 2em;
+  font-family: times, serif;
+
+}
+
+header h2{
+  padding: .5em;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+}
+
+nav{
+  background: #eee;
+  color:#fff;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 100;
+  display:flex;
+  justify-content: center;
+}
+
+nav a:link{
+  flex:1;
+  text-align: center;
+  color:#fff;
+  background: #ccc;
+  padding: .5em;
+}
+
+nav a:visited{
+  color: #800000
+}
+
+nav a:active{
+  color: #800000;
+}
+
+nav a:hover{
+  color: #ddd;
+}
+
+img{
+  width: 40%;
+  margin-top: 2em;
+}
+
+footer{
+text-align: center;
+text-transform: uppercase;
+font-size: 1em;
+font-family: times, serif;
+letter-spacing: .5em;
+background-color: #eee;
+margin-top: 10em;
+
+}
+
+
+.w1{
+ text-align: right;
+}
+
+.heada1{
+  text-align: left;
+  border-left: .1em solid #800000;
+
+}
+
+.heada2{
+  text-align: right;
+  border-right: .1em solid #800000;
+}
+
+.ex1234 h2{
+  padding: .5em;
+  font-family: times,serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #800000;
+  margin-left:2em;
+  margin-top: 2em;
+  text-align: left;
+  border-left: .1em solid #800000;
+
+}
+
+.ex1234{
+font-family: times, serif;
+font-size: 1em;
+text-align: center;
+margin-right: 15em;
+}
+
+.ex{
+  background-color: #800000;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 100%;
+  color: #eee;
+  padding: 10%;
+  margin-top: 10em;
+  margin-left: 15em;
+  display: inline-block;
+}
+
+.ex:hover{
+  opacity: 20%;
+}
+
+.projects{
+  font-family: times, serif;
+  font-size: 1em;
+  text-align: center;
+  margin-right: 15em;
+
+}
+
+.projects h2{
+  padding: .5em;
+  font-family: times,serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #800000;
+  margin-left:2em;
+  margin-top: 2em;
+  text-align: left;
+  border-left: .1em solid #800000;
+}
+
+.pro{
+  background-color: #800000;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  color: #eee;
+  padding: 10%;
+  margin-top: 10em;
+  margin-left: 15em;
+  display: inline-block;
+
+}
+
+.pro:hover{
+  opacity: 20%;
+}
